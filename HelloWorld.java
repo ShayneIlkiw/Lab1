@@ -23,7 +23,7 @@ public class HelloWorld
         meters = 10;
         metersToFeet = (meters * 3.281);
        
-        System.out.println ("The distance in feet is " + metersToFeet);
+        System.out.println ("The distance from meters to feet is " + metersToFeet);
 
         // Currency conversion code
 
@@ -38,6 +38,29 @@ public class HelloWorld
         System.out.println ("This amount in CAD is " + cad);
         System.out.println ("This amount in USD is " + usd);
         System.out.println ("This amount in EUR is " + eur); 
+
+        //Calculate the area and perimeter
+
+        int width;
+        int length;
+        int perimeter;
+        int area;
+
+        length = 10;
+        width = 20;
+
+        perimeter = (length * 2) + (width * 2);
+
+        area = length * width;
+
+        System.out.println ("The perimeter is " + perimeter);
+        System.out.println ("The area is " + area);
+
+
+
+
+
+
 
     }
 
